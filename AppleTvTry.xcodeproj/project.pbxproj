@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6713C78519965329003CAEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713C78419965329003CAEEF /* main.m */; };
+		6713C78819965329003CAEEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713C78719965329003CAEEF /* AppDelegate.m */; };
+		6713C78B19965329003CAEEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713C78A19965329003CAEEF /* ViewController.m */; };
+		6713C78E19965329003CAEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6713C78C19965329003CAEEF /* Main.storyboard */; };
+		6713C79019965329003CAEEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6713C78F19965329003CAEEF /* Images.xcassets */; };
+		6713C79C19965329003CAEEF /* AppleTvTryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713C79B19965329003CAEEF /* AppleTvTryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6713C79619965329003CAEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6713C77719965328003CAEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6713C77E19965329003CAEEF;
+			remoteInfo = AppleTvTry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6713C77F19965329003CAEEF /* AppleTvTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTvTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6713C78319965329003CAEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6713C78419965329003CAEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6713C78619965329003CAEEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6713C78719965329003CAEEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6713C78919965329003CAEEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6713C78A19965329003CAEEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6713C78D19965329003CAEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6713C78F19965329003CAEEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6713C79519965329003CAEEF /* AppleTvTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTvTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6713C79A19965329003CAEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6713C79B19965329003CAEEF /* AppleTvTryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTvTryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6713C77C19965329003CAEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6713C79219965329003CAEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6713C77619965328003CAEEF = {
+			isa = PBXGroup;
+			children = (
+				6713C78119965329003CAEEF /* AppleTvTry */,
+				6713C79819965329003CAEEF /* AppleTvTryTests */,
+				6713C78019965329003CAEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6713C78019965329003CAEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6713C77F19965329003CAEEF /* AppleTvTry.app */,
+				6713C79519965329003CAEEF /* AppleTvTryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6713C78119965329003CAEEF /* AppleTvTry */ = {
+			isa = PBXGroup;
+			children = (
+				6713C78619965329003CAEEF /* AppDelegate.h */,
+				6713C78719965329003CAEEF /* AppDelegate.m */,
+				6713C78919965329003CAEEF /* ViewController.h */,
+				6713C78A19965329003CAEEF /* ViewController.m */,
+				6713C78C19965329003CAEEF /* Main.storyboard */,
+				6713C78F19965329003CAEEF /* Images.xcassets */,
+				6713C78219965329003CAEEF /* Supporting Files */,
+			);
+			path = AppleTvTry;
+			sourceTree = "<group>";
+		};
+		6713C78219965329003CAEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6713C78319965329003CAEEF /* Info.plist */,
+				6713C78419965329003CAEEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6713C79819965329003CAEEF /* AppleTvTryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6713C79B19965329003CAEEF /* AppleTvTryTests.m */,
+				6713C79919965329003CAEEF /* Supporting Files */,
+			);
+			path = AppleTvTryTests;
+			sourceTree = "<group>";
+		};
+		6713C79919965329003CAEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6713C79A19965329003CAEEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6713C77E19965329003CAEEF /* AppleTvTry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6713C79F19965329003CAEEF /* Build configuration list for PBXNativeTarget "AppleTvTry" */;
+			buildPhases = (
+				6713C77B19965329003CAEEF /* Sources */,
+				6713C77C19965329003CAEEF /* Frameworks */,
+				6713C77D19965329003CAEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTvTry;
+			productName = AppleTvTry;
+			productReference = 6713C77F19965329003CAEEF /* AppleTvTry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6713C79419965329003CAEEF /* AppleTvTryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6713C7A219965329003CAEEF /* Build configuration list for PBXNativeTarget "AppleTvTryTests" */;
+			buildPhases = (
+				6713C79119965329003CAEEF /* Sources */,
+				6713C79219965329003CAEEF /* Frameworks */,
+				6713C79319965329003CAEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6713C79719965329003CAEEF /* PBXTargetDependency */,
+			);
+			name = AppleTvTryTests;
+			productName = AppleTvTryTests;
+			productReference = 6713C79519965329003CAEEF /* AppleTvTryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6713C77719965328003CAEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = tibikolozsi;
+				TargetAttributes = {
+					6713C77E19965329003CAEEF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6713C79419965329003CAEEF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6713C77E19965329003CAEEF;
+					};
+				};
+			};
+			buildConfigurationList = 6713C77A19965328003CAEEF /* Build configuration list for PBXProject "AppleTvTry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6713C77619965328003CAEEF;
+			productRefGroup = 6713C78019965329003CAEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6713C77E19965329003CAEEF /* AppleTvTry */,
+				6713C79419965329003CAEEF /* AppleTvTryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6713C77D19965329003CAEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6713C78E19965329003CAEEF /* Main.storyboard in Resources */,
+				6713C79019965329003CAEEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6713C79319965329003CAEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6713C77B19965329003CAEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6713C78B19965329003CAEEF /* ViewController.m in Sources */,
+				6713C78819965329003CAEEF /* AppDelegate.m in Sources */,
+				6713C78519965329003CAEEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6713C79119965329003CAEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6713C79C19965329003CAEEF /* AppleTvTryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6713C79719965329003CAEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6713C77E19965329003CAEEF /* AppleTvTry */;
+			targetProxy = 6713C79619965329003CAEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6713C78C19965329003CAEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6713C78D19965329003CAEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6713C79D19965329003CAEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6713C79E19965329003CAEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6713C7A019965329003CAEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppleTvTry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6713C7A119965329003CAEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppleTvTry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6713C7A319965329003CAEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleTvTryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTvTry.app/AppleTvTry";
+			};
+			name = Debug;
+		};
+		6713C7A419965329003CAEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleTvTryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleTvTry.app/AppleTvTry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6713C77A19965328003CAEEF /* Build configuration list for PBXProject "AppleTvTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713C79D19965329003CAEEF /* Debug */,
+				6713C79E19965329003CAEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6713C79F19965329003CAEEF /* Build configuration list for PBXNativeTarget "AppleTvTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713C7A019965329003CAEEF /* Debug */,
+				6713C7A119965329003CAEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6713C7A219965329003CAEEF /* Build configuration list for PBXNativeTarget "AppleTvTryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713C7A319965329003CAEEF /* Debug */,
+				6713C7A419965329003CAEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6713C77719965328003CAEEF /* Project object */;
+}
