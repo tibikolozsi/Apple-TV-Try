@@ -13,6 +13,7 @@
 		6713C78E19965329003CAEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6713C78C19965329003CAEEF /* Main.storyboard */; };
 		6713C79019965329003CAEEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6713C78F19965329003CAEEF /* Images.xcassets */; };
 		6713C79C19965329003CAEEF /* AppleTvTryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713C79B19965329003CAEEF /* AppleTvTryTests.m */; };
+		678BAFE9199662DE0079DA82 /* ExternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678BAFE8199662DE0079DA82 /* ExternalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		6713C79519965329003CAEEF /* AppleTvTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTvTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6713C79A19965329003CAEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6713C79B19965329003CAEEF /* AppleTvTryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTvTryTests.m; sourceTree = "<group>"; };
+		678BAFE7199662DE0079DA82 /* ExternalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalViewController.h; sourceTree = "<group>"; };
+		678BAFE8199662DE0079DA82 /* ExternalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				6713C78919965329003CAEEF /* ViewController.h */,
 				6713C78A19965329003CAEEF /* ViewController.m */,
 				6713C78C19965329003CAEEF /* Main.storyboard */,
+				678BAFE7199662DE0079DA82 /* ExternalViewController.h */,
+				678BAFE8199662DE0079DA82 /* ExternalViewController.m */,
 				6713C78F19965329003CAEEF /* Images.xcassets */,
 				6713C78219965329003CAEEF /* Supporting Files */,
 			);
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6713C78B19965329003CAEEF /* ViewController.m in Sources */,
+				678BAFE9199662DE0079DA82 /* ExternalViewController.m in Sources */,
 				6713C78819965329003CAEEF /* AppDelegate.m in Sources */,
 				6713C78519965329003CAEEF /* main.m in Sources */,
 			);
@@ -333,8 +339,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AppleTvTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -344,8 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AppleTvTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -402,6 +412,7 @@
 				6713C7A119965329003CAEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6713C7A219965329003CAEEF /* Build configuration list for PBXNativeTarget "AppleTvTryTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +421,7 @@
 				6713C7A419965329003CAEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

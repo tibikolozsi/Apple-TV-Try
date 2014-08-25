@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ExternalViewController.h
 //  AppleTvTry
 //
 //  Created by Tibi Kolozsi on 09/08/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ExternalViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *label;
-@end
 
+@end

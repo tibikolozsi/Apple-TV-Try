@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExternalViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UIWindow *externalWindow;
+@property (nonatomic) ExternalViewController* externalViewController;
 
 @end
 
